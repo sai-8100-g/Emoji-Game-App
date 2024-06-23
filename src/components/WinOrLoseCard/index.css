@@ -1,0 +1,50 @@
+.win-or-lose-container {
+  display: flex;
+  width: 60%;
+  background-color: #ffffff30;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4%;
+  padding: 1%;
+  border: none;
+  border-radius: 20px;
+}
+
+.win-or-lose-container > img {
+  width: 30%;
+}
+
+.info-card {
+  text-align: center;
+}
+
+.info-card > h1 {
+  color: #ffffff;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.info-card > p {
+  color: #ffffff;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+button {
+  color: black;
+  background-color: #ffce27;
+  border: none;
+  font-family: 'Bree Serif';
+  border-radius: 4px;
+  font-size: 1vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+.win-or-lose-display {
+  display: none;
+}
+
+.score {
+  color: #6a59ff;
+}
